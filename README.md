@@ -20,4 +20,4 @@ The model I'm trying to build here is composed by two parts:
 
 The idea is to take prediction in which the model is not confident enough and compare the frame to already known frames to (hopefully) enhance the accuracy.
 
-While the project proceed, I will also update this README file.
+While the project proceeds, I will also update this README file.
