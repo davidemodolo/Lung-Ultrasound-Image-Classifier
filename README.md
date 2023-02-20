@@ -24,3 +24,5 @@ After training the pre-trained network, the whole dataset is checked in the netw
 
 - [ ] use different pre-trained models
 - [ ] use different similarity models/modality
+
+Try using padding and resizing
