@@ -20,4 +20,7 @@ The model I'm trying to build here is composed by two parts:
 
 The idea is to take prediction in which the model is not confident enough and compare the frame to already known frames to (hopefully) enhance the accuracy.
 
-While the project proceeds, I will also update this README file.
+After training the pre-trained network, the whole dataset is checked in the network. If we get a wrong result, save softmax value. Learn if there is some correlation between error numbers and confidence. Then, test again and if any "error" behaviour is found, we pass the image into the second network to find the final result.
+
+- [ ] use different pre-trained models
+- [ ] use different similarity models/modality
