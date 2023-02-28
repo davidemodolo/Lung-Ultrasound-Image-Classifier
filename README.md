@@ -15,6 +15,8 @@ We have given a partial dataset from the San Matteo hospital, consisting of 11 p
 The model I'm trying to build here is composed by two parts:
 
 - a fine-tuned pre-trained model (resnet18)
+    - first k fold 8-3 5epochs to find the best configuration of train/test patients
+    - choose the best configuration and start from there for augmentation used in paper **Deep Learning for Classification and Localization of COVID-19 Markers in Point-of-Care Lung Ultrasound**
 
 - a near duplicate image search module OR [t-SNE](https://towardsdatascience.com/visualizing-feature-vectors-embeddings-using-pca-and-t-sne-ef157cea3a42#:~:text=t%2DSNE%20is%20a%20powerful,parameters%20that%20can%20be%20tweaked).
 
