@@ -5,7 +5,7 @@ import numpy as np
 from tqdm import tqdm
 
 # define the path to the images directory
-IMAGES_PATH = "images"
+IMAGES_PATH = "images_png"
 
 # initialize the list of means and standard deviations
 means = np.zeros(3)
