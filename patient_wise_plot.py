@@ -33,3 +33,5 @@ for p in ax.patches:
     ax.annotate(str(int(p.get_height())), (p.get_x() * 1.005, p.get_height() * 1.005))
 plt.show()
 
+# print the number of frames for each patient
+print(images_df.groupby("patient_id").count()["score"])
