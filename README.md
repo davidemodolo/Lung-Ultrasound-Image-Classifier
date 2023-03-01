@@ -25,7 +25,11 @@ The idea is to take prediction in which the model is not confident enough and co
 After training the pre-trained network, the whole dataset is checked in the network. If we get a wrong result, save softmax value. Learn if there is some correlation between error numbers and confidence. Then, test again and if any "error" behaviour is found, we pass the image into the second network to find the final result.
 
 My todo:
+- [x] function to compute mean and sd of a dataset
+- [x] plot the number of frames by score
+- [ ] convert all images to `tf.train.Example` 
 - [ ] transformations from professor's papers for data augmentation
+- [ ] during train each frame is passed clean, and 2 times transformed. A specific patient is kept out of everything for the final test: choose the one to leave out
 - [ ] use different pre-trained models
 - [ ] use different similarity models/modality
 
