@@ -35,6 +35,14 @@ My todo:
 - [ ] use different pre-trained models
 - [ ] use different similarity models/modality
 
-Try using padding and resizing
+Steps for presentation:
+- choose the best combination of patients based on the std
+- train ResNet18
+- prepare the second
+- learn when to ask the second
+- performance only with the first
+- performance only on the second
+- total performance
+- example for retrieving
 
 Also classificator softmax -> correct/wrong prediction
