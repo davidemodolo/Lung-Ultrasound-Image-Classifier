@@ -1,5 +1,5 @@
 images/
-images_bw/
+imagesBW/
 images_png/
 tf_records/
 *.html

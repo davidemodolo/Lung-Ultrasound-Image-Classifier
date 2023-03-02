@@ -1,3 +1,4 @@
+# put this file in the same directory as the dataset
 import scipy.io
 import glob
 import cv2

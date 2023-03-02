@@ -1,9 +1,9 @@
+# NOT USED IN THE END, TFRECORDS FILE TOO LARGE
+
 import tensorflow as tf
 import os
 from PIL import Image
 from tqdm import tqdm
-
-# the result file is too large
 
 def _bytes_feature(value):
     return tf.train.Feature(bytes_list=tf.train.BytesList(value=[value]))

@@ -1,3 +1,5 @@
+# NOT USED IN THE END, KETPT ORIGINAL SIZE AND CHANNELS
+
 # get all png files in images to size [1, 512, 512]
 # save to images_resized
 import os
