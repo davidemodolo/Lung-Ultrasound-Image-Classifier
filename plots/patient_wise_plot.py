@@ -2,7 +2,7 @@ import pandas as pd
 # "patient_id exam_id spot[1-14] frame_number score"
 # load patients data in a dataframe from images folder
 import glob
-images_paths = glob.glob("images/*.png", recursive=True)
+images_paths = glob.glob("../images/*.png", recursive=True)
 # images are named as: patientid_examid_spotnumber_framenumber_score.png
 # create a dataframe with the data removing "images/"
 images_df = pd.DataFrame([path[7:-4].split("_") for path in images_paths], columns=["patient_id", "exam_id", "spot", "frame_number", "score"])
