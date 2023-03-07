@@ -34,6 +34,7 @@ My todo:
     patient 1047 has 1151 frames, patient 1051 has 1239 frames. Those two are the patient with less frames, **1051** is more linear between the scores, better one for the test
 - [ ] use different pre-trained models
 - [ ] use different similarity models/modality
+- [ ] confusion matrix for the first model
 
 Steps for presentation:
 - choose the best combination of patients based on the std
