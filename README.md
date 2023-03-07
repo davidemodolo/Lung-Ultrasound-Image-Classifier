@@ -29,7 +29,7 @@ My todo:
 - [x] compute mean and sd con the RGB images
 - [x] plot the number of frames by score
 - [x] convert all images to `tf.train.Example` **TOO LARGE, keep png_s**
-- [ ] transformations from professor's papers for data augmentation
+- [x] transformations from professor's papers for data augmentation
 - [x] during train each frame is passed clean, and 2 times transformed. A specific patient is kept out of everything for the final test: choose the one to leave out
     patient 1047 has 1151 frames, patient 1051 has 1239 frames. Those two are the patient with less frames, **1051** is more linear between the scores, better one for the test
 - [ ] use different pre-trained models
