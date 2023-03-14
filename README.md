@@ -25,6 +25,7 @@ The idea is to take prediction in which the model is not confident enough and co
 After training the pre-trained network, the whole dataset is checked in the network. If we get a wrong result, save softmax value. Learn if there is some correlation between error numbers and confidence. Then, test again and if any "error" behaviour is found, we pass the image into the second network to find the final result.
 
 My todo:
+- [ ] **BALANCE TRAIN CORR == 1**
 - [x] function to compute mean and sd of a dataset
 - [x] compute mean and sd con the RGB images
 - [x] plot the number of frames by score
@@ -32,9 +33,9 @@ My todo:
 - [x] transformations from professor's papers for data augmentation
 - [x] during train each frame is passed clean, and 2 times transformed. A specific patient is kept out of everything for the final test: choose the one to leave out
     patient 1047 has 1151 frames, patient 1051 has 1239 frames. Those two are the patient with less frames, **1051** is more linear between the scores, better one for the test
-- [ ] use different pre-trained models
+- [x] use different pre-trained models
 - [ ] use different similarity models/modality
-- [ ] confusion matrix for the first model
+- [x] confusion matrix for the first model
 
 Steps for presentation:
 - choose the best combination of patients based on the std
