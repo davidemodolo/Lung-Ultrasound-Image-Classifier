@@ -5,3 +5,5 @@ tf_records/
 *.html
 Dati_San_Matteo/
 data/
+my_model/
+embedding_model/
