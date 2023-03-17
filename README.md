@@ -34,6 +34,7 @@ My todo:
 - [x] during train each frame is passed clean, and 2 times transformed. A specific patient is kept out of everything for the final test: choose the one to leave out
     patient 1047 has 1151 frames, patient 1051 has 1239 frames. Those two are the patient with less frames, **1051** is more linear between the scores, better one for the test
 - [x] use different pre-trained models
+- [x] softmax classification
 - [ ] use different similarity models/modality
 - [ ] LSH similarity
 - [ ] final merged model
