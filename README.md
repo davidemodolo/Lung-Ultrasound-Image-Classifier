@@ -2,6 +2,8 @@
 
 This project aims to find an alternative way to classify Lung Ultrasound Images of patients affected by COVID-19.
 
+This repository is a student project for the _Medical Imaging Diagnostic_ course of the Master's Degree in Artificial Intelligent Systems at the University of Trento, a.y. 2022-2023.
+
 ## Before starting
 
 As explained in the paper [Deep Learning for Classification and Localization of COVID-19 Markers in Point-of-Care Lung Ultrasound](https://ieeexplore.ieee.org/document/9093068), images are scored as:
@@ -30,21 +32,21 @@ The idea is to take prediction in which the model is not confident enough and co
 
 ## In depth
 
-### pre-trained models
+### PRE-TRAINED MODEL
 
-Resnet18
+ResNet18
 
 VGG16
 
 Squeezenet1
 
-### binary classifier
+### BINARY CLASSIFIER
 
 SVC
 
 Deep model
 
-### similarity models
+### SIMILARITY MODEL
 
 t-SNE using model features
 
