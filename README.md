@@ -44,10 +44,12 @@ Squeezenet1
 
 SVC
 
-Deep model
+Deep model on both resnet and squeezenet results
 
 ### SIMILARITY MODEL
 
 t-SNE using model features
+
+t-SNE using resnet embeddings
 
 t-SNE using "raw" images
