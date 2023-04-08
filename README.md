@@ -48,6 +48,8 @@ Deep model on both resnet and squeezenet results
 
 ### SIMILARITY MODEL
 
+Near duplicate image search 
+
 t-SNE using model features
 
 t-SNE using resnet embeddings
