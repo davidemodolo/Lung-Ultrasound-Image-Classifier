@@ -44,6 +44,8 @@ Squeezenet1
 
 SVC
 
+4 SVCs
+
 Deep model on both resnet and squeezenet results
 
 ### SIMILARITY MODEL
