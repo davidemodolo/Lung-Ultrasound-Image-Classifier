@@ -30,30 +30,22 @@ The model I'm trying to build here is composed by three main parts:
 
 The idea is to take prediction in which the model is not confident enough and compare the frame to already known frames to (hopefully) enhance the accuracy.
 
-## In depth
+## Repository content
+```
+project
+│   README.md
+│   Medical_Imaging_Diagnostic_Report.pdf: report on this project
+│   model.ipynb: notebook containing the performance of the final model
+│   step_by_step.ipynb: notebook containing all the test I made
+│
+└───data: contains all the csv files created from images data
+│       
+└───dataset_utilities: python scripts to prepare the .png files
+│       
+└───models: all my models
+│       
+└───plots: plots from my project
+│       
+└───images: folder that contains LUS images (it's not uploaded to GitHub)
 
-### PRE-TRAINED MODEL
-
-ResNet18
-
-VGG16
-
-Squeezenet1
-
-### BINARY CLASSIFIER
-
-SVC
-
-4 SVCs
-
-Deep model on both resnet and squeezenet results
-
-### SIMILARITY MODEL
-
-Near duplicate image search 
-
-t-SNE using model features
-
-t-SNE using resnet embeddings
-
-t-SNE using "raw" images
+```
